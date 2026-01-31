@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8FB1B5FC-F940-4A9C-944C-3805B270B310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevPathTracker.Server", "src\DevPathTracker.Server\DevPathTracker.Server.csproj", "{A1883102-358C-408B-B23A-38AFBD721FC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1883102-358C-408B-B23A-38AFBD721FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1883102-358C-408B-B23A-38AFBD721FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1883102-358C-408B-B23A-38AFBD721FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1883102-358C-408B-B23A-38AFBD721FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1883102-358C-408B-B23A-38AFBD721FC2} = {8FB1B5FC-F940-4A9C-944C-3805B270B310}
+	EndGlobalSection
+EndGlobal
