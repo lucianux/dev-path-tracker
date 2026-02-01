@@ -62,4 +62,5 @@ jobs:
           app-name: 'devpath-api'
           slot-name: 'Production'
           package: .
+          startup-command: 'dotnet DevPathTracker.Server.dll'
           
