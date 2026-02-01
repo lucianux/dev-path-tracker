@@ -7,9 +7,11 @@ function App() {
 
   // Cargar datos iniciales
   const fetchMilestones = () => {
-    fetch('http://localhost:5092/api/milestones')
+    const baseUrl = import.meta.env.VITE_API_URL;
+    fetch(`${baseUrl}/milestones`)
       .then(res => res.json())
-      .then(data => setMilestones(data));
+      .then(data => setMilestones(data))
+      .catch(err => console.error("Error:", err));
   };
 
   useEffect(() => {

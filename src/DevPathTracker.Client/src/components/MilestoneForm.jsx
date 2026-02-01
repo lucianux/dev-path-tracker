@@ -10,10 +10,10 @@ function MilestoneForm({ onMilestoneAdded }) {
     e.preventDefault();
     
     const newMilestone = { title, category, status };
-
+    const baseUrl = import.meta.env.VITE_API_URL;
     try {
       // 2. Enviar datos al Backend (.NET 8)
-      const response = await fetch('http://localhost:5092/api/milestones', {
+      const response = await fetch(`${baseUrl}/milestones`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newMilestone),
